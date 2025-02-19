@@ -1,5 +1,4 @@
 .container-main-content {
-    background-color: rgb(255, 255, 255);
     height: 50%;
     width: 90%;
     display: flex;
@@ -7,6 +6,7 @@
     justify-content: center;
     align-items: center;
     gap: 60px;
+    z-index: 1;
 }
 
 .style-btn {
@@ -16,16 +16,38 @@
     color: white;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.5s ease-in-out;
 }
 
-.dado-style-content {
-    height: 80px;
-    width: 80px;
+.style-btn:hover {
+    background-color: aliceblue;
+    color: black;
+    border: 1px solid black;
+    transform: scale(1.1)
+}
+
+.cube-style-content {
+    height: 150px;
+    width: 150px;
     background-color: cadetblue;
     border-radius: 8px;
-    gap: 8px;
-    font-size: xx-large;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* box-shadow: 10px 5px 5px rgba(7, 0, 0, 0.322); */
+}
+
+.container-cubes {
+    display: flex;
+    gap: 38px;
+}
+
+.icon-cube {
+    width: 100%;
+}
+
+.icon-size {
+    font-size: 5rem;
 }

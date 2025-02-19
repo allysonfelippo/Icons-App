@@ -4,7 +4,7 @@ import './Header.css'
 function Header() {
   return (
     <div className='container-header'>
-      <p className='titulo-app'>Dark Pictures Web</p>
+      <h1>Story Cubes Game</h1>
     </div>
   )
 }
