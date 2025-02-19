@@ -4,7 +4,7 @@ import './Header.css'
 function Header() {
   return (
     <div className='container-header'>
-      <h1>Dark Pictures Web</h1>
+      <p className='titulo-app'>Dark Pictures Web</p>
     </div>
   )
 }

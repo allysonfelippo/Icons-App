@@ -1,8 +1,13 @@
 .container-header {
-    background-color: rgb(245, 240, 234);
-    height: 60px;
+    height: 150px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.titulo-app {
+    font-size: 55px;
+    margin-top: 90px;
+    z-index: 1;
 }

@@ -22,9 +22,7 @@ function Game() {
         <GiElephant />
     ]
 
-    const [icon, setIcon] = useState([<GiAxolotl />,
-    <GiCapybara />,
-    <GiCat />])
+    const [icon, setIcon] = useState([<GiAxolotl />, <GiCapybara />, <GiCat />])
 
     function TrocarIcone() {
         const newIcons = icons.map((() => {
